@@ -1,0 +1,3 @@
+gcc compiler - /usr/bin/gcc
+the file that lists all the user groups - /etc/group
+the directory that is used for print spooling - /private/var/spool/cups

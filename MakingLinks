@@ -1,0 +1,13 @@
+cd
+mkdir LabTask2
+cd LabTask2
+mkdir Originals
+mkdir Links
+cd Originals
+touch HardStuff
+vi HardStuff INSERT HARDSTUFFHARDSTUFFHARDSTUFF esc :wq
+touch SoftStuff
+vi SoftStuff INSERT SOFTSTUFFSOFTSTUFFSOFTSTUFF esc :wq
+cd ..
+ln Originals/HardStuff Links/LinkToHardStuff
+ln -s Originals/SoftStuff Links/RelativeToSoftStuff
